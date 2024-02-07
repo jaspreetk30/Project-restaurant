@@ -1,0 +1,23 @@
+CREATE TABLE Employees (
+	Role varchar(255),
+	UserName varchar(255),
+	Password varchar(255)
+            BranchLocation varchar(255)
+);
+
+
+Role
+Username 
+Password 
+Branch location 
+
+Adding to the table :
+
+INSERT INTO Employees (Role,UserName,Password,BranchLocation)
+VALUES ("Waiter", "john12", "cat123", “Egham”);
+
+
+
+To display contents of the table : 
+Use the SELECT command to choose the table which the data is stored into . Use the Command WHERE to specifice which field is required and what data needs to be outputted .  
+
